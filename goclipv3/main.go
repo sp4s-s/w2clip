@@ -23,8 +23,8 @@ func main() {
 
 
 func initMongoDB() {
-	dbName := "clipCluster"
-	uri := "mongodb+srv://pingz1:LavillaFormatDebug@clipcluster.qm8vk.mongodb.net/?retryWrites=true&w=majority&appName=clipCluster"
+	dbName := "dbname"
+	uri := "mongodb+srv://:@.qm8vk.mongodb.net/?retryWrites=true&w=majority&appName="
 	clientOptions := options.Client().ApplyURI(uri)
 	var err error
 	client, err = mongo.Connect(context.TODO(), clientOptions)

@@ -1,0 +1,22 @@
+{
+    "users":[
+        {
+            "name": "usrName",
+            "id": "usrId",
+            "uri": "uri"
+        
+        }
+    ]
+}
+
+{
+    "usrID": "usrId",
+    "usrName": "usrName",
+    "msgs":[
+        {
+            "msg": "msg",
+            "time": "time",
+            "id": "0123..."
+        }
+    ]
+}
